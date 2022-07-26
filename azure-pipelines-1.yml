@@ -17,6 +17,7 @@ strategy:
       python.version: '3.8'
 
 steps:
+- task: UsePythonVersion@0
   inputs:
     versionSpec: '3.x'
     githubToken: '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'
