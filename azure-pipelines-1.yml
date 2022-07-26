@@ -23,8 +23,6 @@ strategy:
       python.version: '3.7'
 
 steps:
-- script: |
-    apt-get install libpython3.6-dev
 - task: UsePythonVersion@0
   inputs:
     versionSpec: '$(python.version)'
