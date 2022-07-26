@@ -23,6 +23,10 @@ strategy:
       python.version: '3.7'
 
 steps:
+- script: |
+    python3 -V
+    python3 -m pip install -r requirements.txt
+  displayName: 'python fix'
 - task: UsePythonVersion@0
   inputs:
     versionSpec: '$(python.version)'
