@@ -14,12 +14,12 @@ pool:
 strategy:
   matrix:
     Python36:
-      python.version: '3.8'
+      python.version: '3.6.9'
 
 steps:
 - task: UsePythonVersion@0
   inputs:
-    versionSpec: '3.8'
+    versionSpec: '3.6.9'
     githubToken: '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'
     addToPath: true
     architecture: 'x64'
