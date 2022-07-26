@@ -15,8 +15,7 @@ steps:
 - task: UsePythonVersion@0
   inputs:
     versionSpec: '3.6.15'
-    allowUnstable: true
-    githubToken: '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'
+    disableDownloadFromRegistry: true
     addToPath: true
     architecture: 'x64'
 
