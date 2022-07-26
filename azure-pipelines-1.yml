@@ -9,7 +9,7 @@ trigger:
 pool:
   name: az400m05l05a-pool
   demands:
-  - agent.name -equals 0BSFD-54ZD0J3
+  - agent.name -equals BSFD-54ZD0J3
 
 strategy:
   matrix:
