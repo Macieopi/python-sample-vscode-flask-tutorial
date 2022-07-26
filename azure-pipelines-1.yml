@@ -19,8 +19,8 @@ strategy:
 steps:
 - task: UsePythonVersion@0
   inputs:
-    versionSpec: '3.x'
-    githubToken: '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'
+    versionSpec: '3.8'
+    githubToken: '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'
     addToPath: true
     architecture: 'x64'
 
