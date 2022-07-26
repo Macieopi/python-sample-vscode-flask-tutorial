@@ -18,7 +18,7 @@ strategy:
     Python35:
       python.version: '3.5'
     Python36:
-      python.version: '3.6'
+      python.version: '3.6.9'
     Python37:
       python.version: '3.7'
 
