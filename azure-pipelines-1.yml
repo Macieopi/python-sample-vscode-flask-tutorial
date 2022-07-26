@@ -18,11 +18,13 @@ strategy:
     Python35:
       python.version: '3.5'
     Python36:
-      python.version: '3.6.9'
+      python.version: '3.6'
     Python37:
       python.version: '3.7'
 
 steps:
+- script: |
+    apt-get install libpython3.6-dev
 - task: UsePythonVersion@0
   inputs:
     versionSpec: '$(python.version)'
