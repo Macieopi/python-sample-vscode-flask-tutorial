@@ -17,10 +17,11 @@ strategy:
       python.version: '3.8'
 
 steps:
-- task: UsePythonVersion@0
-  # inputs:
-  #   versionSpec: '$(python.version)'
-  displayName: 'Use Python $(python.version)'
+  inputs:
+    versionSpec: '3.x'
+    githubToken: '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'
+    addToPath: true
+    architecture: 'x64'
 
 - script: |
     python -m pip install --upgrade pip
