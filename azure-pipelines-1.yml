@@ -19,3 +19,4 @@ steps:
     script: |
       print('Hello world 1')
       print('Hello world 2')
+    pythonInterpreter: '~/Downloads/vsts-agent-linux-x64-2.206.1/_work/_tool/Python/3.6.15/x64'
